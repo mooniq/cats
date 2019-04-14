@@ -14,7 +14,7 @@ class Cats extends Component {
     }
 
     componentDidMount() {
-        fetch("https://api.thecatapi.com/v1/images/search?limit=50&page=1&order=Desc&size=small")
+        fetch("https://api.thecatapi.com/v1/images/search?limit=100&page=5&order=Desc&size=small")
             .then(res => res.json())
             .then(
                 (result) => {
@@ -34,7 +34,7 @@ class Cats extends Component {
 
     render() {
 
-        const audio = new Audio("Cat-Meowing.wav");
+        // const audio = new Audio("Cat-Meowing.wav");
         const { error, isLoaded, items } = this.state;
 
 
