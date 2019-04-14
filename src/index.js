@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+    google: {
+        families: ['Raleway:300', 'Roboto Slab']
+    }
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
