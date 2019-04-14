@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("cat-bg.png");
+  background-color: lightgrey;
+  font-family: "Raleway";
+}
+
+.header {
+  text-transform: uppercase;
+  font-family: "Roboto Slab";
+}
+
+footer, header {
+  width: 100%;
+}
+
+.card {
+  max-width: 17rem;
+}
