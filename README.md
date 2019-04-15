@@ -10,6 +10,10 @@ Next, clone this project by running the following in your terminal:
 
 Once cloned, cd into the project directory and run:
 
+### `npm install` or `yarn`
+
+To install packages and dependences, then run:
+
 ### `npm start` or `yarn start`
 
 The app will now be in development mode and you can 
