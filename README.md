@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This SPA was built as an exercise assignment for Simfy. It is a basic page that makes a call to The Cat Api
+This SPA was built as an exercise assignment. It is a basic page that makes a call to The Cat Api
 & outputs the result. To see it in your browser, follow the steps below.
 
 First, make sure you have Node and NPM installed on your machine.
